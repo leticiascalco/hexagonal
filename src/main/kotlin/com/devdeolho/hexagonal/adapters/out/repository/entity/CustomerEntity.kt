@@ -1,6 +1,6 @@
 package com.devdeolho.hexagonal.adapters.out.repository.entity
 
-import com.devdeolho.hexagonal.aplication.core.domain.Customer
+import com.devdeolho.hexagonal.application.core.domain.Customer
 import org.springframework.data.mongodb.core.mapping.Document
 import org.springframework.data.mongodb.core.mapping.MongoId
 

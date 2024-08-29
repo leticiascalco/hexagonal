@@ -1,10 +1,10 @@
-package com.devdeolho.hexagonal.aplication.core.usecase
+package com.devdeolho.hexagonal.application.core.usecase
 
-import com.devdeolho.hexagonal.aplication.core.domain.Customer
-import com.devdeolho.hexagonal.aplication.ports.`in`.InsertCustomerInputPort
-import com.devdeolho.hexagonal.aplication.ports.out.FindAddressByZipCodeOutputPort
-import com.devdeolho.hexagonal.aplication.ports.out.InsertCustomerOutputPort
-import com.devdeolho.hexagonal.aplication.ports.out.SendCpfForValidationOutputPort
+import com.devdeolho.hexagonal.application.core.domain.Customer
+import com.devdeolho.hexagonal.application.ports.`in`.InsertCustomerInputPort
+import com.devdeolho.hexagonal.application.ports.out.FindAddressByZipCodeOutputPort
+import com.devdeolho.hexagonal.application.ports.out.InsertCustomerOutputPort
+import com.devdeolho.hexagonal.application.ports.out.SendCpfForValidationOutputPort
 
 class InsertCustomerUseCase(
     private val findAddressByZipCodeOutputPort: FindAddressByZipCodeOutputPort,

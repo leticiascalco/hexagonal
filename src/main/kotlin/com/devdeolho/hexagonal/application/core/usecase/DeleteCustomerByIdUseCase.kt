@@ -1,8 +1,8 @@
-package com.devdeolho.hexagonal.aplication.core.usecase
+package com.devdeolho.hexagonal.application.core.usecase
 
-import com.devdeolho.hexagonal.aplication.ports.`in`.DeleteCustomerByIdInputPort
-import com.devdeolho.hexagonal.aplication.ports.`in`.FindCustomerByIdInputPort
-import com.devdeolho.hexagonal.aplication.ports.out.DeleteCustomerByIdOutputPort
+import com.devdeolho.hexagonal.application.ports.`in`.DeleteCustomerByIdInputPort
+import com.devdeolho.hexagonal.application.ports.`in`.FindCustomerByIdInputPort
+import com.devdeolho.hexagonal.application.ports.out.DeleteCustomerByIdOutputPort
 
 class DeleteCustomerByIdUseCase(
     private val findCustomerByIdInputPort: FindCustomerByIdInputPort,

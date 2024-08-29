@@ -1,6 +1,6 @@
 package com.devdeolho.hexagonal.adapters.out
 
-import com.devdeolho.hexagonal.aplication.ports.out.SendCpfForValidationOutputPort
+import com.devdeolho.hexagonal.application.ports.out.SendCpfForValidationOutputPort
 import org.springframework.kafka.core.KafkaTemplate
 import org.springframework.stereotype.Component
 

@@ -1,6 +1,6 @@
 package com.devdeolho.hexagonal.adapters.`in`.message
 
-import com.devdeolho.hexagonal.aplication.core.domain.Customer
+import com.devdeolho.hexagonal.application.core.domain.Customer
 
 data class CustomerMessage(
     val id: String,

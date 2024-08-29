@@ -2,8 +2,8 @@ package com.devdeolho.hexagonal.adapters.out
 
 import com.devdeolho.hexagonal.adapters.out.repository.CustomerRepository
 import com.devdeolho.hexagonal.adapters.out.repository.entity.CustomerEntity
-import com.devdeolho.hexagonal.aplication.core.domain.Customer
-import com.devdeolho.hexagonal.aplication.ports.out.InsertCustomerOutputPort
+import com.devdeolho.hexagonal.application.core.domain.Customer
+import com.devdeolho.hexagonal.application.ports.out.InsertCustomerOutputPort
 import org.springframework.stereotype.Component
 
 @Component

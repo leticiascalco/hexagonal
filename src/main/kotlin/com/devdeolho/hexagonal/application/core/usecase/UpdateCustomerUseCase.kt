@@ -1,11 +1,11 @@
-package com.devdeolho.hexagonal.aplication.core.usecase
+package com.devdeolho.hexagonal.application.core.usecase
 
-import com.devdeolho.hexagonal.aplication.core.domain.Customer
-import com.devdeolho.hexagonal.aplication.ports.`in`.FindCustomerByIdInputPort
-import com.devdeolho.hexagonal.aplication.ports.`in`.UpdateCustomerInputPort
-import com.devdeolho.hexagonal.aplication.ports.out.FindAddressByZipCodeOutputPort
-import com.devdeolho.hexagonal.aplication.ports.out.SendCpfForValidationOutputPort
-import com.devdeolho.hexagonal.aplication.ports.out.UpdateCustomerOutputPort
+import com.devdeolho.hexagonal.application.core.domain.Customer
+import com.devdeolho.hexagonal.application.ports.`in`.FindCustomerByIdInputPort
+import com.devdeolho.hexagonal.application.ports.`in`.UpdateCustomerInputPort
+import com.devdeolho.hexagonal.application.ports.out.FindAddressByZipCodeOutputPort
+import com.devdeolho.hexagonal.application.ports.out.SendCpfForValidationOutputPort
+import com.devdeolho.hexagonal.application.ports.out.UpdateCustomerOutputPort
 
 /**
  * Aqui não é utilizada nenhuma lib ou framework, por isso é necesária a criação dos Beans em config

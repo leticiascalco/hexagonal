@@ -1,7 +1,7 @@
 package com.devdeolho.hexagonal.adapters.out
 
 import com.devdeolho.hexagonal.adapters.out.repository.CustomerRepository
-import com.devdeolho.hexagonal.aplication.ports.out.DeleteCustomerByIdOutputPort
+import com.devdeolho.hexagonal.application.ports.out.DeleteCustomerByIdOutputPort
 import org.springframework.stereotype.Component
 
 @Component

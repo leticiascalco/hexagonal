@@ -1,6 +1,6 @@
 package com.devdeolho.hexagonal.adapters.out.repository.entity
 
-import com.devdeolho.hexagonal.aplication.core.domain.Address
+import com.devdeolho.hexagonal.application.core.domain.Address
 
 data class AddressEntity(
     val street: String,

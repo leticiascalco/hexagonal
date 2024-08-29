@@ -1,6 +1,6 @@
 package com.devdeolho.hexagonal.adapters.`in`.controller.response
 
-import com.devdeolho.hexagonal.aplication.core.domain.Customer
+import com.devdeolho.hexagonal.application.core.domain.Customer
 
 data class CustomerResponse(
     val id: String,

@@ -3,9 +3,9 @@ package com.devdeolho.hexagonal.config
 import com.devdeolho.hexagonal.adapters.out.FindAddressByZipCodeAdapter
 import com.devdeolho.hexagonal.adapters.out.SendCpfForValidationAdapter
 import com.devdeolho.hexagonal.adapters.out.client.UpdateCustomerAdapter
-import com.devdeolho.hexagonal.aplication.core.usecase.FindCustomerByIdUseCase
-import com.devdeolho.hexagonal.aplication.core.usecase.UpdateCustomerUseCase
-import com.devdeolho.hexagonal.aplication.ports.`in`.UpdateCustomerInputPort
+import com.devdeolho.hexagonal.application.core.usecase.FindCustomerByIdUseCase
+import com.devdeolho.hexagonal.application.core.usecase.UpdateCustomerUseCase
+import com.devdeolho.hexagonal.application.ports.`in`.UpdateCustomerInputPort
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 

@@ -1,3 +1,3 @@
-package com.devdeolho.hexagonal.aplication.core.exceptions
+package com.devdeolho.hexagonal.application.core.exceptions
 
 class ObjectNotFoundException(message: String): RuntimeException(message)

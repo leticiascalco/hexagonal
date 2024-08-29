@@ -1,8 +1,8 @@
 package com.devdeolho.hexagonal.adapters.out
 
 import com.devdeolho.hexagonal.adapters.out.repository.CustomerRepository
-import com.devdeolho.hexagonal.aplication.core.domain.Customer
-import com.devdeolho.hexagonal.aplication.ports.out.FindCustomerByIdOutputPort
+import com.devdeolho.hexagonal.application.core.domain.Customer
+import com.devdeolho.hexagonal.application.ports.out.FindCustomerByIdOutputPort
 import org.springframework.stereotype.Component
 import kotlin.jvm.optionals.getOrNull
 

@@ -1,4 +1,4 @@
-package com.devdeolho.hexagonal.aplication.ports.`in`
+package com.devdeolho.hexagonal.application.ports.`in`
 
 interface DeleteCustomerByIdInputPort {
 

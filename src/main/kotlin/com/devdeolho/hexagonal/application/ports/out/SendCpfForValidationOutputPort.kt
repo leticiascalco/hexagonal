@@ -1,4 +1,4 @@
-package com.devdeolho.hexagonal.aplication.ports.out
+package com.devdeolho.hexagonal.application.ports.out
 
 interface SendCpfForValidationOutputPort {
 
