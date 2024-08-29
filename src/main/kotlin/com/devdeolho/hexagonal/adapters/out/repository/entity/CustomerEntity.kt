@@ -4,7 +4,7 @@ import com.devdeolho.hexagonal.aplication.core.domain.Customer
 import org.springframework.data.mongodb.core.mapping.Document
 import org.springframework.data.mongodb.core.mapping.MongoId
 
-@Document(collation = "customers")
+@Document
 data class CustomerEntity(
     @MongoId val id: String?,
     val name: String,
