@@ -4,10 +4,12 @@ import com.devdeolho.hexagonal.aplication.core.domain.Customer
 import com.devdeolho.hexagonal.aplication.ports.`in`.InsertCustomerInputPort
 import com.devdeolho.hexagonal.aplication.ports.out.FindAddressByZipCodeOutputPort
 import com.devdeolho.hexagonal.aplication.ports.out.InsertCustomerOutputPort
+import com.devdeolho.hexagonal.aplication.ports.out.SendCpfForValidationOutputPort
 
 class InsertCustomerUseCase(
     private val findAddressByZipCodeOutputPort: FindAddressByZipCodeOutputPort,
-    private val insertCustomerOutputPort: InsertCustomerOutputPort
+    private val insertCustomerOutputPort: InsertCustomerOutputPort,
+    private val sendCpfForValidationOutputPort: SendCpfForValidationOutputPort
 ): InsertCustomerInputPort {
 
     //funcao do tipo void/Unit
@@ -16,6 +18,7 @@ class InsertCustomerUseCase(
             address = findAddressByZipCodeOutputPort.find(zipCode)
         }.let { //let serve para realizar operações dentro do objeto e em seguida encadear novas operações nesse resultado
             insertCustomerOutputPort.insert(it)
+            sendCpfForValidationOutputPort.send(it.cpf)
         }
     }
 }
